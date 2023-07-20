@@ -1,0 +1,94 @@
+body {
+  margin: 0%;
+}
+.box {
+  border: 2px solid black;
+  background-color: black;
+  border-bottom: 5px solid rgb(88, 90, 94);
+}
+.nav {
+  display: inline;
+  margin: 0%;
+  padding: 10px;
+}
+h1 {
+  font-family: "Silkscreen", cursive;
+  color: white;
+  margin-left: 2%;
+  display: inline-block;
+}
+a {
+  position: relative;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 130%;
+  margin-top: 27px;
+  padding-left: 5%;
+  margin-right: 35px;
+  float: right;
+}
+a:hover {
+  color: aquamarine;
+}
+p {
+  text-align: center;
+  font-size: 130%;
+}
+.input {
+  border: 5px solid rgb(88, 90, 94);
+  background-color: black;
+  margin-left: 4%;
+  margin-top: 1%;
+  border-radius: 20px;
+  height: 490px;
+  width: 865px;
+}
+.con {
+  float: right;
+  margin-top: -30%;
+  margin-right: 4%;
+}
+.con p {
+  text-align: left;
+  font-size: 25px;
+  padding-bottom: 10%;
+}
+.con hr {
+  margin-top: -10%;
+}
+
+form {
+  margin-top: 0%;
+  margin-left: 3%;
+  margin-right: -5%;
+  border-radius: 20px;
+}
+form #fname {
+  border-radius: 5px;
+  padding-left: 5px;
+  width: 70%;
+  height: 40px;
+}
+form #lname {
+  border-radius: 5px;
+  padding-left: 5px;
+  width: 70%;
+  height: 40px;
+}
+form #message {
+  border-radius: 5px;
+  padding-left: 5px;
+  width: 90%;
+  padding-bottom: 25%;
+  padding-top: 2%;
+}
+form #sub {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 2%;
+  color: black;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 5px;
+}
